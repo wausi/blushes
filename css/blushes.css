@@ -66,8 +66,15 @@ article img{
 	max-width: 100px;
 	margin-right: 10px;
 }
+article img:hover{
+	transform: scale(2.1);
+}
+
 .details{
 	font-style: italic;
+}
+.details:hover{
+	color:rgba(217, 134, 149, 1.0);
 }
 form{
 	padding-top: 0 80px;
@@ -81,6 +88,11 @@ form submit{
 article button{
 	float: right;
 }
+article h2:hover{
+	color:rgba(102,51,153, 0.8);
+
+}
+
 section form{
 	border-style: solid gray;
 }
@@ -92,14 +104,30 @@ section form{
 }
 input[type=submit]{
 	margin: 15px 80px;
-	border-radius: 5px solid  #de5d83;
+	border-radius: 15px;
+	border:none;
 	color: white;
 	background-color: #de5d83;
+	width:50px;
+	cursor: pointer;
 }
 input[type=submit]:hover{
      color:rgba(255,182,193, 0.8);
 }
 input[type=button]{
-	float: right;
-	margin: 5px;
+	
+	cursor: pointer;
+
+}
+input[type=button]:hover{
+	color:rgba(255,182,193, 0.8);
+}
+fieldset{
+	text-align: center;
+	padding: 20px;
+}
+legend{
+	text-align: center;
+	font-family: lucida;
+	font-size: 30px;
 }
