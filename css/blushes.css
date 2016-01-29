@@ -90,3 +90,16 @@ section form{
 .postlists{
 	padding: 0;
 }
+input[type=submit]{
+	margin: 15px 80px;
+	border-radius: 5px solid  #de5d83;
+	color: white;
+	background-color: #de5d83;
+}
+input[type=submit]:hover{
+     color:rgba(255,182,193, 0.8);
+}
+input[type=button]{
+	float: right;
+	margin: 5px;
+}
