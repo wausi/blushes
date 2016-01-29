@@ -12,6 +12,22 @@ header li{
 	display: inline;
 	margin: 0 10px;
 }
+.logo a{
+	color: #de5d83;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+a:hover{
+	color:rgba(255,182,193, 0.8);
+}
+
+.button{
+	background-color: #de5d83;
+	border: 2px solid #de5d83;
+	color: purple;
+}
 .logo{
 	font-family: lucida;
 	font-size: 60px;
@@ -25,6 +41,9 @@ header li{
 	color:  #de5d83;
 	margin-left: 30px;
 	display: inline;
+}
+.logo:hover{
+	color:rgba(255,182,193, 0.8);
 }
 main{
 	padding: 0 35px;
@@ -44,9 +63,20 @@ rightnav{
 article img{
 	float: left;
 	clear: both;
+	max-width: 100px;
+	margin-right: 10px;
 }
 .details{
 	font-style: italic;
+}
+form{
+	padding-top: 0 80px;
+
+}
+form submit{
+	background-color: #de5d83;
+	border: 2px solid #de5d83;
+	color: purple;
 }
 article button{
 	float: right;
@@ -54,4 +84,9 @@ article button{
 section form{
 	border-style: solid gray;
 }
-
+.subscribe{
+	padding: 0 100px;
+}
+.postlists{
+	padding: 0;
+}
