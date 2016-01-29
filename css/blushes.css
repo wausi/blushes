@@ -1,0 +1,38 @@
+header{
+	width: 1250px;
+}
+.logo{
+	font-family: lucida;
+	font-size: 60px;
+	border: 5px dashed purple;
+	background-color: #ffffff;
+	width: 200px;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	color:  #de5d83;
+	margin-left: 30px;
+}
+main{
+	padding: 0 35px;
+}
+aside{
+	float: left;
+	width: 750px;
+	clear: both;
+}
+rightnav{
+	float: right;
+	width: 450px;
+	margin-right: 30px;
+}
+article img{
+	float: left;
+	clear: both;
+}
+article button{
+	float: right;
+}
+section form{
+	border-style: solid gray;
+}
